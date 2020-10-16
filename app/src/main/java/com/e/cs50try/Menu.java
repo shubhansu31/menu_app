@@ -1,9 +1,9 @@
 package com.e.cs50try;
 
 public class Menu {
-    private int image;
-    private String itemName;
-    private int price;
+    public int image;
+    public String itemName;
+    public int price;
 
     public Menu(int image, String itemName , int price){
         this.image = image;
