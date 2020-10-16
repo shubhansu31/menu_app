@@ -21,8 +21,8 @@ public class AdapterClass extends RecyclerView.Adapter<AdapterClass.AdapterViewH
 
     public static class AdapterViewHolder extends RecyclerView.ViewHolder{
         public LinearLayout linearLayout;
-        public TextView textView,textView2;
-        public ImageView imageView;
+        private TextView textView,textView2;
+        private ImageView imageView;
 
         AdapterViewHolder(View view){
             super(view);
