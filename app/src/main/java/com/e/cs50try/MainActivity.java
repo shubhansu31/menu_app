@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView recyclerView;
-    private RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
+    public RecyclerView recyclerView;
+    public RecyclerView.Adapter adapter;
+    public RecyclerView.LayoutManager layoutManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
